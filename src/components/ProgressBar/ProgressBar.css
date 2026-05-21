@@ -1,0 +1,47 @@
+.progress {
+  display: grid;
+  gap: 16px;
+}
+
+.progress__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  color: var(--color-platinum);
+  font-weight: 900;
+}
+
+.progress__header strong {
+  color: var(--color-champagne);
+}
+
+.progress__track {
+  height: 14px;
+  overflow: hidden;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.progress__bar {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--color-champagne), #f1d58f);
+  transition: width 560ms ease;
+}
+
+.progress__steps {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  color: var(--color-smoke);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 620px) {
+  .progress__steps {
+    grid-template-columns: 1fr;
+  }
+}

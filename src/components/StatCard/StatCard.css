@@ -1,0 +1,19 @@
+.stat-card {
+  padding: 24px;
+  border: var(--border-gold);
+  border-radius: var(--radius-md);
+  background: rgba(21, 23, 28, 0.74);
+}
+
+.stat-card strong {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--color-champagne);
+  font-family: var(--font-display);
+  font-size: 2rem;
+}
+
+.stat-card span {
+  color: var(--color-smoke);
+  font-weight: 700;
+}
