@@ -101,6 +101,6 @@ export const cars = [
     acceleration: '4,8s',
     price: 'R$ 4.900.000',
     status: 'Sob consulta',
-    image: 'https://images.unsplash.com/photo-1562141961-0182f2ec7721?auto=format&fit=crop&w=1200&q=80'
+    image: 'https://www.europeanprestige.co.uk/blobs/stock/547/images/1695b8d3-ffbe-4f64-b669-de012126d528/hi4a7681.jpg?width=2000&height=1333'
   }
 ];
